@@ -1,0 +1,167 @@
+@media screen and (min-width: 750px) {
+        .smallPageLogo {
+    visibility: hidden;
+    }
+}
+@media screen and (min-width: 375px) {
+        .smallPageLogo {
+    margin-right: 40px;
+    }
+}
+.indexTitle {
+    padding-top: 20px;
+    font-family: Raleway;
+    font-size: 30;
+    color: black;
+    text-align: left;
+}
+@media screen and (max-width: 640px) {
+        .indexTitle {
+    font-size:70px;
+    }
+}
+@media screen and (max-width: 768px) {
+        .indexTitle {
+    padding-top: 60px;
+    }
+}
+.subheading {
+    font-family: Raleway;
+    font-size: 20px;
+    color: black;  
+}
+@media screen and (max-width: 340px) {
+        .mainImage {
+    display: none;
+    }
+}
+.features .glyphicon {
+    font-size: 45px;
+    padding-right: 10px;
+    color: #6EB893;
+}
+.features {
+    color: white;
+    font-family: Allura;
+    font-size: 40px;
+}
+@media screen and (max-width: 1125px) {
+        .features {
+    font-size: 30px;
+    }
+}
+@media screen and (min-width: 767px) {
+        .features {
+    margin-top: 30px;
+    }
+}
+.container {
+    background-color: white;
+    box-shadow: 10px 10px 5px;
+}
+.backgroundColor {
+    background-color: slategray;
+}
+
+.mainContainer {
+    padding-top: 100px;
+}
+.aboutTitle {
+    font-family: Pacifico;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #D49494;
+}
+.aboutSubheading {
+    font-size: 40px;
+    font-family: Allura;
+}
+@media screen and (max-width: 768px) {
+        .aboutCupCrave {
+    font-size: 20px;
+    }
+}
+.eatTitle {
+    font-family: Pacifico;
+    font-size: 50px;
+    color:#6EB893;
+}
+@media screen and (max-width: 750px) {
+        .eatTitle {
+    font-size: 40px;
+    }
+}
+.eatSubheading {
+    font-family:serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+@media screen and (max-width: 750px) {
+        .eatSubheading {
+    font-size: 40px;
+    }
+}
+.flavors {
+    font-family:serif;
+    font-size: 20px;
+}
+.contactTitle {
+    padding-top: 30px;
+    font-family: Allura;
+    font-size: 50px;
+}
+.contactInfo {
+    font-family: serif;
+    font-size: 25px;
+}
+@media (min-width: 768px){
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: left;
+        width: 30%;
+        font-size: 14px;
+    }
+    .navbar-nav>li {
+        display: table-cell;
+        float: none;
+        text-align: left;
+    }
+
+}
+.desktopImage {
+    width: 80%;
+    height: auto;
+}
+.mobileImage {
+    height: 50%;
+    width: auto;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
