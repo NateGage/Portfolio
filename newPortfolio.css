@@ -14,7 +14,6 @@
     font-weight: bold;
     font-size: 30;
     color: black;
-    text-align: left;
 }
 @media screen and (max-width: 375px) {
         .indexTitle {
@@ -122,9 +121,11 @@
     }
 }
 .mobileImage {
-    margin-left: -5%;
+    margin-left: -2%;
+    margin-top: 3%;
 }
 .tabletImage {
+    margin-top: 3%;
     height: 50%;
     width: auto;
 }
@@ -132,11 +133,44 @@
         .tabletImage {
     height: 30%;
     width: auto;
+    margin-top: 5%;
     }
 }
-    
-    
-    
+@media screen and (max-width: 375px) {
+        .tabletImage {
+    float: right;
+    }
+}
+.mobileDescrip {
+    margin-top: 5%;
+}
+@media screen and (max-width: 768px) {
+        .mobileDescrip {
+    font-size: 11px;
+    margin-top: 1%;
+    }
+}
+@media screen and (max-width: 375px) {
+        .mobileDescrip {
+    font-size: 12px;
+    margin-top: 50px;
+    }
+}
+.arrow {
+    height: 50px;
+    width: auto;
+}
+.projectText {
+    margin-left: 2%;
+    margin-top: 5%;
+}
+@media screen and (max-width: 375px) {
+        .projectText {
+    font-size: 12px;
+    }
+}
+
+
     
     
     
