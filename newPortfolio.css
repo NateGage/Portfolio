@@ -120,15 +120,19 @@
         float: none;
         text-align: left;
     }
-
-}
-.desktopImage {
-    width: 80%;
-    height: auto;
 }
 .mobileImage {
+    margin-left: -5%;
+}
+.tabletImage {
     height: 50%;
     width: auto;
+}
+@media screen and (max-width: 768px) {
+        .tabletImage {
+    height: 30%;
+    width: auto;
+    }
 }
     
     
