@@ -1,12 +1,23 @@
-@media screen and (min-width: 750px) {
-        .smallPageLogo {
-    visibility: hidden;
+.welcomeTitle {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: bold;
+}
+.welcomeText {
+    font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+        .welcomeText {
+    font-size: 16px;
     }
 }
-@media screen and (min-width: 375px) {
-        .smallPageLogo {
-    margin-right: 40px;
+@media screen and (max-width: 375px) {
+        .welcomeText {
+    font-size: 16px;
     }
+}
+.myPicture {
+    float: right;
 }
 .indexTitle {
     padding-top: 20px;
@@ -22,8 +33,9 @@
 }
 .subheading {
     font-family: Raleway;
-    font-size: 18px;
+    font-size: 16px;
     color: black;  
+    margin-left: 10%;
 }
 @media screen and (max-width: 375px) {
         .subheading {
@@ -122,7 +134,7 @@
 }
 .mobileImage {
     margin-left: -2%;
-    margin-top: 3%;
+    margin-top: 8%;
 }
 @media screen and (max-width: 375px) {
         .mobileImage {
@@ -148,6 +160,8 @@
 }
 .mobileDescrip {
     margin-top: 5%;
+    font-family: Raleway;
+    font-size: 16px;
 }
 @media screen and (max-width: 768px) {
         .mobileDescrip {
@@ -155,26 +169,44 @@
     margin-top: 1%;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
         .mobileDescrip {
-    font-size: 12px;
-    margin-top: 50px;
+    font-size: 16px;
+    margin-top: 80px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .mobileDescrip {
+        font-size: 12px;
+        margin-top: 8%;
     }
 }
 .arrow {
     height: 50px;
     width: auto;
 }
+@media screen and (max-width: 600px) {
+    .arrow {
+        width: 15%;
+        height: auto;
+    }
+}
 .projectText {
     margin-left: 2%;
     margin-top: 5%;
+    font-family: Raleway;
+    font-size: 16px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
+        .projectText {
+    font-size: 16px;
+    }
+}
+@media screen and (max-width: 500px) {
         .projectText {
     font-size: 12px;
     }
 }
-
 
     
     
