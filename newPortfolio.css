@@ -36,11 +36,6 @@
     font-size:30px;
     }
 }
-.subheading {
-    font-size: 16px;
-    color: black;  
-    margin-left: 10%;
-}
 @media screen and (max-width: 375px) {
         .subheading {
     font-size:14px;
@@ -138,7 +133,7 @@
 }
 .mobileImage {
     margin-left: -2%;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 @media screen and (max-width: 375px) {
         .mobileImage {
@@ -211,8 +206,16 @@
     font-size: 12px;
     }
 }
-
-    
+.contentDescrip {
+    font-family: Raleway;
+    font-size: 18px;
+    margin-top: 8%;
+}
+@media screen and (max-width: 500px) {
+        .contentDescrip {
+    font-size: 12px;
+    }
+}
     
     
     
