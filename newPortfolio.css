@@ -19,6 +19,11 @@
 .myPicture {
     float: right;
 }
+@media screen and (max-width: 768px) {
+        .myPicture {
+    margin-top: 10%;
+    }
+}
 .indexTitle {
     padding-top: 20px;
     font-family: Raleway;
@@ -32,7 +37,6 @@
     }
 }
 .subheading {
-    font-family: Raleway;
     font-size: 16px;
     color: black;  
     margin-left: 10%;
