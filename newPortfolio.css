@@ -25,7 +25,7 @@
     }
 }
 .indexTitle {
-    padding-top: 20px;
+    margin-top: 2%;
     font-family: Raleway;
     font-weight: bold;
     font-size: 30;
@@ -33,27 +33,12 @@
 }
 @media screen and (max-width: 375px) {
         .indexTitle {
-    font-size:30px;
+    font-size:25px;
     }
 }
-@media screen and (max-width: 375px) {
-        .subheading {
-    font-size:14px;
-    }
-}
-.features {
-    color: white;
-    font-family: Allura;
-    font-size: 40px;
-}
-@media screen and (max-width: 1125px) {
-        .features {
-    font-size: 30px;
-    }
-}
-@media screen and (min-width: 767px) {
-        .features {
-    margin-top: 30px;
+@media screen and (max-width: 768px) {
+        .indexTitle {
+    margin-top: 5%;
     }
 }
 .container {
@@ -65,56 +50,7 @@
 }
 
 .mainContainer {
-    padding-top: 100px;
-}
-.aboutTitle {
-    font-family: Pacifico;
-    font-size: 50px;
-    font-weight: bold;
-    padding-top: 20px;
-    color: #D49494;
-}
-.aboutSubheading {
-    font-size: 40px;
-    font-family: Allura;
-}
-@media screen and (max-width: 768px) {
-        .aboutCupCrave {
-    font-size: 20px;
-    }
-}
-.eatTitle {
-    font-family: Pacifico;
-    font-size: 50px;
-    color:#6EB893;
-}
-@media screen and (max-width: 750px) {
-        .eatTitle {
-    font-size: 40px;
-    }
-}
-.eatSubheading {
-    font-family:serif;
-    font-size: 40px;
-    font-weight: bold;
-}
-@media screen and (max-width: 750px) {
-        .eatSubheading {
-    font-size: 40px;
-    }
-}
-.flavors {
-    font-family:serif;
-    font-size: 20px;
-}
-.contactTitle {
-    padding-top: 30px;
-    font-family: Allura;
-    font-size: 50px;
-}
-.contactInfo {
-    font-family: serif;
-    font-size: 25px;
+    padding-top: 50px;
 }
 @media (min-width: 768px){
     .navbar-nav {
@@ -159,7 +95,6 @@
 }
 .mobileDescrip {
     margin-top: 5%;
-    font-family: Raleway;
     font-size: 16px;
 }
 @media screen and (max-width: 768px) {
@@ -171,23 +106,24 @@
 @media screen and (max-width: 600px) {
         .mobileDescrip {
     font-size: 16px;
-    margin-top: 80px;
     }
 }
 @media screen and (max-width: 500px) {
     .mobileDescrip {
         font-size: 12px;
-        margin-top: 8%;
+        margin-top: 12%;
     }
 }
 .arrow {
     height: 50px;
     width: auto;
+    visibility: hidden;
 }
 @media screen and (max-width: 600px) {
     .arrow {
         width: 15%;
         height: auto;
+        visibility: visible;
     }
 }
 .projectText {
@@ -207,16 +143,18 @@
     }
 }
 .contentDescrip {
-    font-family: Raleway;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 8%;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
         .contentDescrip {
     font-size: 12px;
     }
 }
-    
+.footerWell {
+    background-color: white;
+    font-family: Raleway;
+}
     
     
     
