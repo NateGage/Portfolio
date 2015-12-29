@@ -71,47 +71,30 @@
     margin-left: -2%;
     margin-top: 5%;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
         .mobileImage {
     margin-left: 2%;
     }
 }
 .tabletImage {
     margin-top: 3%;
-    height: 50%;
-    width: auto;
+    width: 30%;
+    min-width: 200px; 
 }
 @media screen and (max-width: 768px) {
         .tabletImage {
-    height: 30%;
-    width: auto;
     margin-top: 5%;
-    }
-}
-@media screen and (max-width: 375px) {
-        .tabletImage {
     float: right;
     }
 }
 .mobileDescrip {
     margin-top: 5%;
-    font-size: 16px;
+    font-size: 14px;
 }
 @media screen and (max-width: 768px) {
         .mobileDescrip {
-    font-size: 11px;
-    margin-top: 1%;
-    }
-}
-@media screen and (max-width: 600px) {
-        .mobileDescrip {
     font-size: 16px;
-    }
-}
-@media screen and (max-width: 500px) {
-    .mobileDescrip {
-        font-size: 12px;
-        margin-top: 12%;
+    margin-top: 12%;
     }
 }
 .arrow {
@@ -119,36 +102,20 @@
     width: auto;
     visibility: hidden;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .arrow {
         width: 15%;
         height: auto;
         visibility: visible;
     }
 }
-.projectText {
-    margin-left: 2%;
-    margin-top: 5%;
-    font-family: Raleway;
-    font-size: 16px;
-}
-@media screen and (max-width: 600px) {
-        .projectText {
-    font-size: 16px;
-    }
-}
-@media screen and (max-width: 500px) {
-        .projectText {
-    font-size: 12px;
-    }
-}
 .contentDescrip {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 8%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
         .contentDescrip {
-    font-size: 12px;
+    font-size: 16px;
     }
 }
 .footerWell {
