@@ -67,11 +67,15 @@
                 </div> 
                     <img class='myPicture col-xs-10 col-sm-5 col-md-5' src='./images/mypicture.png'> 
             </div>
+            
             <div class='footerWell row well well-sm'>
-              
-	          <a href='#' id='contactDialog' class='col-md-offset-1'>Stay In Touch</a>
+	            <a href='#' id='contactDialog' class='col-sm-offset-1 col-md-2 col-md-offset-1'>Stay In Touch</a>
+                <div class='weather'>
+                    <p class='col-sm-offset-1 col-md-3'>Today's current temperature is <span class='todaysWeather'></span> degrees.</p>
+                </div>
             </div>
         </div>
+            
         <script>
             $(function() {
                 $('#dialog').dialog({
@@ -81,6 +85,23 @@
                     $('#dialog').dialog('open');
                 });
             });
+            
+            $(document).ready(function(){
+                $('#contactDialog').click(function(event){
+                    event.preventDefault();
+                });
+                $.ajax('http://api.openweathermap.org/data/2.5/weather?zip=80126,us&units=imperial&appid=2de143494c0b295cca9337e1e96b00e0', {
+                    dataType: 'json',
+                    success: function(result) {
+                        var temp = result.main.temp; 
+                console.log(temp);
+                        $('.todaysWeather').html(temp);
+                    }
+                });
+            });
+            
+               
+          
         </script>    
         <div id='dialog' title='Contact'>
             <p>Nate Gage</p>
