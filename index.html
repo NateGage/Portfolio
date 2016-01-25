@@ -54,12 +54,12 @@
                 <div class='row col-sm-6 col-md-6'>
                     <p class='welcomeTitle'>Nate Gage</p>
                     <br>
-                    <p class='welcomeText'>I am a UI developer with special focus on creating well-designed mobile responsive sites. Since 2014, more internet traffic occurs over mobile devices, and yet many websites are built solely for the desktop experience and are unappealing when viewed through a mobile device.</p>
+                    <p class='welcomeText'>I am a UI developer with special focus on creating appealing, responsive sites.</p>
                         
                     <p class='welcomeText'>If you have an existing site, or are starting a new project, I can assist you in ensuring your site looks great no matter the device.</p>
                     <br>
                     <ul class='welcomeText'>
-                        <li>Click 'Projects' above to view some of my recent work.</li>
+                        <li>Click 'Recent Projects' above to view some of my recent work.</li>
                         <br>
                         <li>Click 'Download Resume' above for a PDF version of my resume.</li>
                     </ul>
@@ -71,7 +71,7 @@
             <div class='footerWell row well well-sm'>
 	            <a href='#' id='contactDialog' class='col-sm-offset-1 col-md-2 col-md-offset-1'>Stay In Touch</a>
                 <div class='weather'>
-                    <p class='col-sm-offset-1 col-md-3'>Today's current temperature is <span class='todaysWeather'></span> degrees.</p>
+                    <p class='col-sm-offset-1 col-md-5'>Today's current temperature in Denver is <span class='todaysWeather'></span> degrees.</p>
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@
                 $('#contactDialog').click(function(event){
                     event.preventDefault();
                 });
-                $.ajax('http://api.openweathermap.org/data/2.5/weather?zip=80126,us&units=imperial&appid=2de143494c0b295cca9337e1e96b00e0', {
+                $.ajax('http://api.openweathermap.org/data/2.5/weather?zip=80202,us&units=imperial&appid=2de143494c0b295cca9337e1e96b00e0', {
                     dataType: 'json',
                     success: function(result) {
                         var temp = result.main.temp; 
