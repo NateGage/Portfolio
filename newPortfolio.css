@@ -1,3 +1,9 @@
+#navText {
+    color: lightblue;
+}
+#navText:hover {
+    color: white;
+}
 .welcomeTitle {
     font-family: Raleway;
     font-size: 30px;
