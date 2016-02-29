@@ -58,6 +58,7 @@
 }
 .backgroundColor {
     background-color: slategray;
+    overflow-x: hidden;
 }
 
 .mainContainer {
@@ -143,8 +144,9 @@
 #contactDialog {
     font-size: 20px;
 }   
-.weather {
-    font-size: 16px;
+#w3cert {
+    width: 30%;
+    margin-top: 10%;
 }
     
     
